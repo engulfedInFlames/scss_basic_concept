@@ -1,0 +1,13 @@
+// 연관되지 않은 태그들의 속성 지정은 mixin
+// 연간된 태그들의 속성 지정은 extend
+/*
+연관 있는 태그들의 속성을 지정할 때는 extend
+1. _button.scss 생성
+2. %button { property...} 작성
+3. import한 후 @extend button
+
+연관 없는 태그들의 속성을 지정할 떄는 mixins
+1. _mixins.scss 생성
+2. @mixins button(param) { property... } 작성
+3. import한 후 @include button(arg) 
+*/
